@@ -1,6 +1,6 @@
 cask "sanebar" do
-  version "2.1.9"
-  sha256 "f07c3c0a5eba43b330eb3c8e6bf5c0cad8c9b5ab699842be17cde50a8b5916ae"
+  version "2.1.11"
+  sha256 "de0045852cff75f6f62a4f4196e2df15bf9c45e93ec1570e899993e07a3b30b6"
 
   url "https://dist.sanebar.com/updates/SaneBar-#{version}.zip"
   name "SaneBar"
