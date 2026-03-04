@@ -1,6 +1,6 @@
 cask "saneclip" do
-  version "2.2.2"
-  sha256 "68bcb1b79e3cd2e8745efd9ae0104acedc8f32729d85d8b303d30615cf13943f"
+  version "2.2.3"
+  sha256 "2dd023e1b12ea0c4a30a00ca5edb4d42c066cc46da05fb0729c7e367c61d3d94"
 
   url "https://dist.saneclip.com/updates/SaneClip-#{version}.zip"
   name "SaneClip"
