@@ -1,6 +1,6 @@
 cask "sanehosts" do
-  version "1.1.1"
-  sha256 "c248146d26303c9f0865a62f639e5a4e7f311c5c6c08a85560d537f98bc669d7"
+  version "1.1.2"
+  sha256 "fd1ca2b4c4e5a33cf9d5fe67977c67cb357ed31221bd2fb8cd4a6884b3824184"
 
   url "https://dist.sanehosts.com/updates/SaneHosts-#{version}.zip"
   name "SaneHosts"
