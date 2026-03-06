@@ -5,18 +5,30 @@ Install SaneApps via Homebrew.
 ## Install
 
 ```bash
-brew tap saneapps/tap
-brew install --cask sanebar
+brew tap sane-apps/tap
+brew install --cask sane-apps/tap/sanebar
 ```
 
 ## Available Casks
 
 | App | Install |
 |-----|---------|
-| SaneBar | `brew install --cask saneapps/tap/sanebar` |
+| SaneBar | `brew install --cask sane-apps/tap/sanebar` |
+| SaneClip | `brew install --cask sane-apps/tap/saneclip` |
+| SaneHosts | `brew install --cask sane-apps/tap/sanehosts` |
+| SaneClick | `brew install --cask sane-apps/tap/saneclick` |
+| SaneSales | `brew install --cask sane-apps/tap/sanesales` |
+
+## Policy
+
+Apps belong in this tap only when they are both:
+- Actively for sale
+- Properly Basic/Pro gated with no meaningful free-path leaks
+
+Install channel does not change licensing. Homebrew installs the same app binary and the same in-app Basic/Pro gate still applies.
 
 ## About
 
-SaneBar is free to install. Pro features ($6.99 lifetime) unlock via in-app license key from [saneapps.com](https://saneapps.com).
+Qualified SaneApps are free to install. Paid features unlock inside the app from the normal SaneApps checkout flow.
 
 Updates are delivered automatically via Sparkle.
