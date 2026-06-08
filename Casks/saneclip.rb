@@ -8,7 +8,7 @@ cask "saneclip" do
   homepage "https://saneclip.com"
 
   auto_updates true
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "SaneClip.app"
 
