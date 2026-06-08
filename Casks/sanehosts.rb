@@ -8,7 +8,7 @@ cask "sanehosts" do
   homepage "https://sanehosts.com"
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "SaneHosts.app"
 
